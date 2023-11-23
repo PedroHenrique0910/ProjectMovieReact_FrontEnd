@@ -15,8 +15,6 @@ function App() {
     {
       const response = await api.get("/api/v1/movies");
 
-      console.log(response.data);
-
       setMovies(response.data);
     } 
     catch(err) 
@@ -33,12 +31,14 @@ function App() {
   return (
     <div className="App">
 
-    <Routes>
-      <Route path="/" element={<Layout/>}>
-      <Route path="/" element={<Home/>}> </Route>
-
-      </Route>
-    </Routes>
+<Routes>
+  <Route path="/" element={<Layout/>}>
+    <Route
+      path="/"
+      element={movies ? <Home movies={movies} /> : <div>Loading...</div>}
+    />
+  </Route>
+</Routes>
 
 
     </div>
