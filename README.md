@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+# Projeto Movie Carousel: Uma Experiência Cinematográfica Inovadora!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Sobre o projeto
+O Movie Carousel é um projeto que proporciona uma experiência envolvente para os apaixonados por cinema. Desenvolvida como uma aplicação Full Stack, a plataforma utiliza tecnologias como Spring Boot para o backend, MongoDB para o banco de dados e React para o frontend.
 
-## Available Scripts
+Com um visual rico, convida os usuários a explorarem, compartilharem suas opiniões e mergulharem na magia do cinema.
 
-In the project directory, you can run:
+Além disso, é importante notar que a estrutura do projeto está organizada de forma modular no GitHub. A parte atual, que você está visualizando, refere-se ao frontend da aplicação. Por outro lado, o backend do Movie Carousel, juntamente com o banco de dados MongoDB, pode ser encontrado no seguinte link: https://github.com/PedroHenrique0910/ProjectMovieSpringBoot_MongoDB
 
-### `npm start`
+Essa abordagem modularizada permite uma fácil navegação e contribuição ao projeto em ambas as frentes de desenvolvimento. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Layout e Estrutura do site:
+A plataforma web interativa apresenta uma experiência visual envolvente, exibindo títulos e pôsteres de filmes em um carrossel elegantemente desenhado. A estética é elevada ainda mais com a utilização de um agradável gradiente de cores, proporcionando uma ótima experiência visual.              
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![1](https://github.com/PedroHenrique0910/ProjectMovieReact_FrontEnd/assets/132857723/2bbc1c26-2757-42b6-9650-ee388c01af67)
 
-### `npm test`
+![panter](https://github.com/PedroHenrique0910/ProjectMovieReact_FrontEnd/assets/132857723/ac37332c-4007-4afa-b0f4-b2e8beb8e0a7)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Explore a liberdade de aprimorar sua experiência cinematográfica, compartilhando suas avaliações pessoais sobre os filmes que mais ama no Movie Carousel. O site oferece a oportunidade única de expressar suas opiniões, acrescentando uma dimensão pessoal a cada obra no site.
 
-### `npm run build`
+![React App - Google Chrome 25_11_2023 17_07_41](https://github.com/PedroHenrique0910/ProjectMovieReact_FrontEnd/assets/132857723/b1451681-5450-4d11-b456-33a0df520578)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+No Movie Carousel você possui a conveniência de assistir aos trailers dos filmes diretamente na plataforma. Sem a necessidade de redirecionamentos ou interrupções, a experiência de visualização é contínua e envolvente. Explore os trailers antes de decidir qual filme assistir, tudo em um só lugar.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+https://github.com/PedroHenrique0910/ProjectMovieReact_FrontEnd/assets/132857723/08458d9e-1a16-422a-88b0-084ee2682b5d
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+A fusão da tecnologia e entretenimento é evidente em cada detalhe, tornando a exploração do mundo do cinema não apenas uma tarefa funcional, mas uma experiência rica e envolvente. 
 
-### `npm run eject`
+![Design sem nome](https://github.com/PedroHenrique0910/ProjectMovieReact_FrontEnd/assets/132857723/09d98622-f470-4c3b-ad82-ab93dccc2378)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Tecnologias utilizadas
+## Back end
+- Java
+- Spring Boot
+- Maven
+## Front end
+- ReactJS
+- React Native
+- CSS
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Banco de Dados
+- MongoDB
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Como executar o projeto
 
-## Learn More
+## Front end web
+Pré-requisitos: Node.js e npm
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+# clonar repositório
+git clone https://github.com/PedroHenrique0910/ProjectMovieReact_FrontEnd
 
-### Code Splitting
+# entrar na pasta do projeto front end web
+cd ProjectMovieReact_FrontEnd
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# instalar dependências
+npm install
 
-### Analyzing the Bundle Size
+# executar o projeto
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```
 
-### Making a Progressive Web App
+## Back end
+Pré-requisitos: Java 17 e Maven
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+# clonar repositório
+git clone https://github.com/PedroHenrique0910/ProjectMovieSpringBoot_MongoDB
 
-### Advanced Configuration
+# entrar na pasta do projeto back end
+cd ProjectMovieSpringBoot
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+# executar o projeto
+./mvnw spring-boot:run
+```
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+# Autor
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Pedro Henrique: 
+https://www.linkedin.com/in/pedrohf0910/
